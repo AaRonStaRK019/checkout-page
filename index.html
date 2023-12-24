@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- nav -->
+    <header>
+
+        <img class="logo" src="./assets/wppusher-logo copy.png" alt="">
+        <nav>
+            <a id="download" href="">Download</a>
+            <a id="learn-more" href="">Learn more</a>
+            <a id="pricing" href="">Pricing</a>
+            <a id="help" href="">Help</a>
+
+            <button class="acct-btn">Account</button>
+        </nav>
+        
+    </header>
+
+    <hr id="header-rule">
+
+    <!-- checkout -->
+    <div class="content">
+        <div class="form">
+            
+            <div class="checkout-title">
+                <p id="checkout-heading">Checkout</p>
+                <hr>
+            </div>
+            
+            <div class="basic">
+                <div class="basic-info">
+                    <img width="30px" height="30px" src="./assets/form-numbers/1.png" alt="">
+                    <p id="basic-info-head">Your Basic Information</p>
+                </div>
+
+                <div class="names">
+                    <div class="first-name">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Jane" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email-address">E-mail</label>
+                    <input type="email" id="user-email" placeholder="janedoe@example.com" required>
+                </div>
+
+                <hr>
+            </div>
+
+            <div class="payment">
+                <div class="payment-head">
+                    <img width="30px" height="30px" src="./assets/form-numbers/2.png" alt="">
+                    <p id="payment-info-head">Your Payment Information</p>
+                </div>
+                <div class="credit-card-info">
+                    <label for="credit-card-number">Credit Card</label>
+                    <span class="card-details"><input type="text" id="card-number" placeholder="Card Number" required maxlength="16"></span>
+                </div>
+
+                <hr>
+            </div>
+
+            <div class="purchase">
+                <button id="buy-wps">
+                    <a href="">Buy WP Pusher</a>
+                </button>
+                <div class="support">
+                    <img src="./assets/form-numbers/question.png" alt="">
+                    <p id="support-text"><span id="need-help">Need any help?</span> Don't hesitate to contact support!</p>
+                </div>
+
+                <img class="powered-by" src="./assets/powered-by-stripe.png" alt="">
+            </div>
+
+        </div>
+        
+        <!-- right-hand sidebar -->
+
+        <div class="sidebar">
+            <div class="sidebar-content">
+                
+                <div class="plan">
+                    <p id="freelancer">Freelancer</p>
+                    <div class="pricing">
+                            <span id="usd">$</span>
+                            <span id="cost">99<span id="annual">/ year</span></span>
+                            
+                    </div>
+                    <p id="renew">Automatically renews after 1 year</p>
+                </div>
+
+                <div class="details">
+                    <div class="ticks">
+                        <img src="./assets/Combined Shape Copy.png" alt="">
+                        <img src="./assets/Combined Shape Copy.png" alt="">
+                        <img src="./assets/Combined Shape Copy.png" alt="">
+                    </div>
+                    <p id="sub-details">
+                        Use on 5 client sites <br>
+                        Private repositories <br>
+                        Email Support
+                    </p>
+                </div>
+
+                <p id="switch">
+                    <span id="switch-first-line">Need 20 client sites</span> <br>
+                    <a id="switch-second-line" href="">Switch to the Agency plan.</a>
+                </p>
+
+                <div class="user-quote">
+                    <hr>
+                    <p id="quote">
+                        FTP is horrible to deal with. 
+                        <span id="wp-pusher">WP Pusher</span> solves that issue, and the customer 
+                        support is awesome!
+                    </p>
+                    <img class="bitmap" src="./assets/Bitmap.png" alt="">
+                    <span id="user-name">Kirk Beard</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+    <p class="copyright-text">&copy; 2018 WP Pusher IvS . <a href="">Terms of Service</a></p>
+    </center>
+
+</body>
+</html>

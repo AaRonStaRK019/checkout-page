@@ -1,0 +1,491 @@
+body{
+    width: 1440px;
+    height: 1170px;
+}
+
+
+header {
+    margin-top: 28px;
+    margin-left: 40px;
+
+    width: 1360px;
+    height: 73px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 39px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+nav {
+    width: 476px;
+    height: 40px;
+    margin-top: 28px;
+    margin-left: 684px;
+    display: flex;
+}
+
+nav a {
+    color: #1D2C3C;
+    text-decoration: none;
+    margin-top: 11px;
+    margin-right: 35px;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: center;
+}
+
+#download{width: 65px;}   #learn-more{width: 71px;}   #pricing{width: 43px;}  #help{width: 30px;}
+
+nav button{
+    width: 91px;
+    height: 40px;
+}
+
+#header-rule{
+    margin-top: 7px;
+    color: #E0E6EA;
+    width: 1358px;
+    height: 2px;
+}
+
+/* content */
+
+.content{
+    background-color: white;
+    display: flex;
+
+    margin-top: 113px;
+    margin-left: 262px;
+    width: 892px;
+    height: 845px;
+
+    border-radius: 0px, 6px, 6px, 0px;
+}
+
+/* left-hand side */
+
+.checkout-title{
+    margin-top: 41px;
+    width: 580px;
+    height: 80px;
+}
+
+#checkout-heading{
+    width: 161px;
+    height: 54px;
+    margin-left: 48px;
+
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.form hr{
+    width: 580px;
+    height: 2px;
+    margin-top: 24px;
+}
+
+.basic{
+    width: 580px;
+    height: 221;
+    margin-top: 34px;
+}
+
+.basic-info, .payment-head{
+    width: 260px;
+    height: 34px;
+    margin-left: 47px;
+    display: flex;
+}
+
+#basic-info-head, #payment-info-head{
+    width: 220px;
+    height: 32px;
+    margin-top: 2px;
+    margin-left: 10px;
+
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: left;
+    color: #1D2C3C;
+}
+
+.basic ::placeholder{
+    width: 187px;
+    height: 17px;
+
+    margin-left: 13px;
+    color: #646E7A;
+}
+
+.names{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 47px;
+    width: 484px;
+}
+.first-name, .last-name, .email{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 187px;
+    height: 17px;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1D2C3C;
+}
+
+
+.first-name, .last-name{
+    width: 227px;
+    height: 60px;
+}
+
+.last-name{
+    margin-left: 30px;
+}
+
+#firstName, #lastName{
+    width: 227px;
+}
+
+#firstName, #lastName, #user-email, #card-number{
+    padding-left: 13px;
+    height: 36px;
+    background: #EDEFF2;
+}
+
+.email{
+    margin-top: 15px;
+    margin-left: 47px;
+
+    width: 370px;
+    height: 60px;
+}
+#user-email{
+    margin-top: 7px;
+    width: 370px;
+}
+
+.form hr{
+    width: 580px;
+    height: 2px;
+    margin-top: 41px;
+    color: #F5F7FA;
+}
+
+/* payment information */
+
+.payment{
+    margin-top: 33px;
+
+    width: 580px;
+    height: 154px;
+}
+
+.credit-card-info{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 21px;
+    margin-left: 47px;
+}
+
+#card-number {
+    margin-top: 7px;
+    width: 483px;
+}
+
+
+
+.purchase{
+    margin-top: 39px;
+    margin-left: 47px;
+    width: 483px;
+    height: 146.1px;
+}
+
+#buy-wps{
+    width: 483px;
+    height: 52px;
+    background-color: #038E7D;
+}
+
+#buy-wps a{
+    color: white;
+    text-decoration: none;
+    
+
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.39600005745887756px;
+    text-align: center;
+}
+
+
+.support{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 75px;
+    width: 333px;
+    height: 20px;
+}
+.support img{
+    width: 20px; height: 20px;
+}
+
+#support-text{
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 303px;
+    height: 16px;
+    
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+}
+
+#need-help{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+}
+.powered-by{
+    width: 92px; height:20.1px;
+    margin-top: 34px; margin-left: 197px;
+}
+
+/* right-hand side --- Sidebar */
+.sidebar{
+    background-color: #1179BF;
+    color: white;
+
+    width: 312px;
+    height: 795px;
+    border-radius: 0px, 6px, 6px, 0px;
+}
+
+.sidebar-content{
+    margin: 42px auto;
+    width: 231px;
+    height: 610px;
+}
+
+.plan{
+    width: 231px;
+    height: 152px;
+}
+
+#freelancer{
+    width: 93px;
+    height: 24px;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+}
+
+.pricing{
+    width: 140px;
+    height: 72px;
+}
+
+#usd{
+    width: 14px;
+    height: 29px;
+    margin-top: 13px;
+
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+}
+
+#cost{
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+}
+
+#annual{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+
+}
+
+/* renew line */
+#renew{
+    width: 229px;
+    height: 48px;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+
+}
+
+.details{
+    width: 170px;
+    height: 96px;
+    margin-top: 36px;
+    display: flex;
+}
+
+.ticks{
+    width: 29px;
+}
+
+#sub-details{
+    margin-top: 0px;
+    width: 141px;
+    height: 96px;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+}
+
+/* switch plans */
+#switch{
+    width: 184px;
+    height: 51px;
+    margin-top: 38px;
+}
+
+#switch-first-line, #switch-second-line{
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+}
+
+#switch-first-line{
+    font-weight: 400;
+}
+
+#switch-second-line{
+    font-weight: 700;
+}
+
+/* user-quote */
+.user-quote{
+    width: 229px;
+    height: 196px;
+}
+
+.user-quote hr{
+    width: 224px;
+    height: 2px;
+    opacity: 0.2px;
+}
+
+#quote{
+    width: 227px;
+    height: 96px;
+}
+
+#quote, #wp-pusher{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.008999999612569809px;
+    text-align: left;
+}
+
+#wp-pusher{
+    font-weight: 700;
+}
+
+.bitmap{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+}
+
+#user-name{
+    width: 76px;
+    height: 19px;
+
+    margin-left: 13px;
+    margin-top: 57px;
+    
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.007999999448657036px;
+    text-align: left;
+}
+
+.copyright-text{
+    width: 867px;
+    height: 17px;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #636B6F;
+}
+
+.copyright-text a{
+    color: #31708F;
+    text-decoration: none;
+}
